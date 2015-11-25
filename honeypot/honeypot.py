@@ -31,6 +31,4 @@ def honey(path):
 
 
 if __name__ == '__main__':
-    if "PORT" not in os.environ:
-        raise(Exception("PORT not defined"))
-    app.run(port=int(os.environ["PORT"]))
+    app.run(host="0.0.0.0",port=8080)

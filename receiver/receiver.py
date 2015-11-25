@@ -17,4 +17,4 @@ def log():
 
 
 if __name__ == '__main__':
-    app.run(port=61116, debug=True)
+    app.run(host="0.0.0.0",port=61116, debug=True)
