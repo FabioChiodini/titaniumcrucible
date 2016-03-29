@@ -18,7 +18,7 @@ def log_request(req):
     data_to_log.update({"ip": ip})
     data_to_log.update({"url": req.full_path})
     try:
-        requests.post(POST_URL,json=json.dumps(data_to_log))
+        requests.post(POST_URL,data=json.dumps(data_to_log))
     except Exception as e:
         print(e)
 
