@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route('/log', methods=['POST'])
 def log():
     try:
-        data_to_log = json.loads(request.json)
+        data_to_log = json.loads(request.data)
         pprint(data_to_log)
     except Exception as e:
         print(e)
