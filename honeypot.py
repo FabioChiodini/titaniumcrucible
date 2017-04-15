@@ -11,7 +11,7 @@ host = os.environ['LOG_HOST']
 
 test_logger = logging.getLogger('python-logstash-logger')
 test_logger.setLevel(logging.INFO)
-test_logger.addHandler(logstash.LogstashHandler(host, 5000, version=1))
+test_logger.addHandler(logstash.TCPLogstashHandler(host, 5000, version=1))
 
 app = Flask(__name__)
 
