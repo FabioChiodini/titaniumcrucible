@@ -1,6 +1,6 @@
 # titaniumcrucible
 
-Code in Python for an honeypot web site that logs to a remote logstash service.
+Code in Python for a very simple honeypot web site that sends logs to a remote logstash service.
 
 
 The most basic logstash input configuration for this is similar to:
