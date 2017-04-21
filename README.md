@@ -16,5 +16,6 @@ input {
 
 The log in kibana should show up like in this example log:
 
+![Alt text](/images/tcLogELKwithgeoip.png "tcLogELKwithgeoip")
 
 [This example log has been enhanced with a geoip filter implemented in logstash]
