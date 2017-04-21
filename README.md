@@ -2,7 +2,7 @@
 
 Code in Python for a very simple honeypot web site that sends logs to a remote logstash service.
 
-
+## Logstash input configuration
 The most basic logstash input configuration for this is similar to:
 
 ```
@@ -13,6 +13,7 @@ input {
 }
 ```
 
+## Output
 
 The log in kibana should show up like in this example log:
 
