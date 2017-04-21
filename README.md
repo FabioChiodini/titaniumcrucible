@@ -2,6 +2,7 @@
 
 Code in Python for a very simple honeypot web site that sends logs to a remote logstash service.
 
+## Dockerized version
 In this repository you can also find the Dockerfile to run this application in Docker.
 
 ## Logstash input configuration
